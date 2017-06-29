@@ -17,6 +17,10 @@
 		C5FD16E71F05743200E0F08E /* TextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5FD16E61F05743200E0F08E /* TextCell.xib */; };
 		C5FD16E91F05744C00E0F08E /* ImageTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5FD16E81F05744C00E0F08E /* ImageTextCell.xib */; };
 		C5FD16EB1F05746F00E0F08E /* InputContainerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5FD16EA1F05746F00E0F08E /* InputContainerView.xib */; };
+		C5FD16EF1F05770D00E0F08E /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FD16EE1F05770D00E0F08E /* ProfileCell.swift */; };
+		C5FD16F11F05776100E0F08E /* InputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FD16F01F05776100E0F08E /* InputContainerView.swift */; };
+		C5FD16F31F0577B400E0F08E /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FD16F21F0577B400E0F08E /* TextCell.swift */; };
+		C5FD16F51F0577CB00E0F08E /* ImageTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FD16F41F0577CB00E0F08E /* ImageTextCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		C5FD16E61F05743200E0F08E /* TextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextCell.xib; sourceTree = "<group>"; };
 		C5FD16E81F05744C00E0F08E /* ImageTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageTextCell.xib; sourceTree = "<group>"; };
 		C5FD16EA1F05746F00E0F08E /* InputContainerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputContainerView.xib; sourceTree = "<group>"; };
+		C5FD16EE1F05770D00E0F08E /* ProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		C5FD16F01F05776100E0F08E /* InputContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputContainerView.swift; sourceTree = "<group>"; };
+		C5FD16F21F0577B400E0F08E /* TextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		C5FD16F41F0577CB00E0F08E /* ImageTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTextCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +112,13 @@
 			isa = PBXGroup;
 			children = (
 				C5FD16E41F05740600E0F08E /* ProfileCell.xib */,
+				C5FD16EE1F05770D00E0F08E /* ProfileCell.swift */,
 				C5FD16E61F05743200E0F08E /* TextCell.xib */,
+				C5FD16F21F0577B400E0F08E /* TextCell.swift */,
 				C5FD16E81F05744C00E0F08E /* ImageTextCell.xib */,
+				C5FD16F41F0577CB00E0F08E /* ImageTextCell.swift */,
 				C5FD16EA1F05746F00E0F08E /* InputContainerView.xib */,
+				C5FD16F01F05776100E0F08E /* InputContainerView.swift */,
 			);
 			name = Xibs;
 			sourceTree = "<group>";
@@ -233,7 +245,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5FD16F31F0577B400E0F08E /* TextCell.swift in Sources */,
+				C5FD16EF1F05770D00E0F08E /* ProfileCell.swift in Sources */,
+				C5FD16F11F05776100E0F08E /* InputContainerView.swift in Sources */,
 				C5FD16C71F0573DC00E0F08E /* ViewController.swift in Sources */,
+				C5FD16F51F0577CB00E0F08E /* ImageTextCell.swift in Sources */,
 				C5FD16C51F0573DC00E0F08E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,6 +460,7 @@
 				C5FD16E01F0573DC00E0F08E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5FD16E11F0573DC00E0F08E /* Build configuration list for PBXNativeTarget "HelloNibsUITests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +469,7 @@
 				C5FD16E31F0573DC00E0F08E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
