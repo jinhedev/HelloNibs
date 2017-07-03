@@ -7,20 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5CCB7321F0AC5410036DA9A /* RadioHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5CCB7311F0AC5410036DA9A /* RadioHeaderView.xib */; };
+		C5CCB7341F0AC5840036DA9A /* RadioHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CCB7331F0AC5840036DA9A /* RadioHeaderView.swift */; };
 		C5FD16C51F0573DC00E0F08E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FD16C41F0573DC00E0F08E /* AppDelegate.swift */; };
 		C5FD16C71F0573DC00E0F08E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FD16C61F0573DC00E0F08E /* ViewController.swift */; };
 		C5FD16CA1F0573DC00E0F08E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5FD16C81F0573DC00E0F08E /* Main.storyboard */; };
 		C5FD16CC1F0573DC00E0F08E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5FD16CB1F0573DC00E0F08E /* Assets.xcassets */; };
 		C5FD16CF1F0573DC00E0F08E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5FD16CD1F0573DC00E0F08E /* LaunchScreen.storyboard */; };
 		C5FD16DA1F0573DC00E0F08E /* HelloNibsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FD16D91F0573DC00E0F08E /* HelloNibsUITests.swift */; };
-		C5FD16E51F05740600E0F08E /* ProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5FD16E41F05740600E0F08E /* ProfileCell.xib */; };
-		C5FD16E71F05743200E0F08E /* TextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5FD16E61F05743200E0F08E /* TextCell.xib */; };
-		C5FD16E91F05744C00E0F08E /* ImageTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5FD16E81F05744C00E0F08E /* ImageTextCell.xib */; };
+		C5FD16E51F05740600E0F08E /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5FD16E41F05740600E0F08E /* ProfileView.xib */; };
 		C5FD16EB1F05746F00E0F08E /* InputContainerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5FD16EA1F05746F00E0F08E /* InputContainerView.xib */; };
-		C5FD16EF1F05770D00E0F08E /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FD16EE1F05770D00E0F08E /* ProfileCell.swift */; };
+		C5FD16EF1F05770D00E0F08E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FD16EE1F05770D00E0F08E /* ProfileView.swift */; };
 		C5FD16F11F05776100E0F08E /* InputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FD16F01F05776100E0F08E /* InputContainerView.swift */; };
-		C5FD16F31F0577B400E0F08E /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FD16F21F0577B400E0F08E /* TextCell.swift */; };
-		C5FD16F51F0577CB00E0F08E /* ImageTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FD16F41F0577CB00E0F08E /* ImageTextCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C5CCB7311F0AC5410036DA9A /* RadioHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadioHeaderView.xib; sourceTree = "<group>"; };
+		C5CCB7331F0AC5840036DA9A /* RadioHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioHeaderView.swift; sourceTree = "<group>"; };
 		C5FD16C11F0573DC00E0F08E /* HelloNibs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloNibs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FD16C41F0573DC00E0F08E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5FD16C61F0573DC00E0F08E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,14 +44,10 @@
 		C5FD16D51F0573DC00E0F08E /* HelloNibsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloNibsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FD16D91F0573DC00E0F08E /* HelloNibsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloNibsUITests.swift; sourceTree = "<group>"; };
 		C5FD16DB1F0573DC00E0F08E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5FD16E41F05740600E0F08E /* ProfileCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileCell.xib; sourceTree = "<group>"; };
-		C5FD16E61F05743200E0F08E /* TextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextCell.xib; sourceTree = "<group>"; };
-		C5FD16E81F05744C00E0F08E /* ImageTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageTextCell.xib; sourceTree = "<group>"; };
+		C5FD16E41F05740600E0F08E /* ProfileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
 		C5FD16EA1F05746F00E0F08E /* InputContainerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputContainerView.xib; sourceTree = "<group>"; };
-		C5FD16EE1F05770D00E0F08E /* ProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		C5FD16EE1F05770D00E0F08E /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		C5FD16F01F05776100E0F08E /* InputContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputContainerView.swift; sourceTree = "<group>"; };
-		C5FD16F21F0577B400E0F08E /* TextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
-		C5FD16F41F0577CB00E0F08E /* ImageTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTextCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,14 +107,12 @@
 		C5FD16EC1F05748400E0F08E /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
-				C5FD16E41F05740600E0F08E /* ProfileCell.xib */,
-				C5FD16EE1F05770D00E0F08E /* ProfileCell.swift */,
-				C5FD16E61F05743200E0F08E /* TextCell.xib */,
-				C5FD16F21F0577B400E0F08E /* TextCell.swift */,
-				C5FD16E81F05744C00E0F08E /* ImageTextCell.xib */,
-				C5FD16F41F0577CB00E0F08E /* ImageTextCell.swift */,
+				C5FD16E41F05740600E0F08E /* ProfileView.xib */,
+				C5FD16EE1F05770D00E0F08E /* ProfileView.swift */,
 				C5FD16EA1F05746F00E0F08E /* InputContainerView.xib */,
 				C5FD16F01F05776100E0F08E /* InputContainerView.swift */,
+				C5CCB7311F0AC5410036DA9A /* RadioHeaderView.xib */,
+				C5CCB7331F0AC5840036DA9A /* RadioHeaderView.swift */,
 			);
 			name = Xibs;
 			sourceTree = "<group>";
@@ -221,10 +215,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5FD16E91F05744C00E0F08E /* ImageTextCell.xib in Resources */,
+				C5CCB7321F0AC5410036DA9A /* RadioHeaderView.xib in Resources */,
 				C5FD16CF1F0573DC00E0F08E /* LaunchScreen.storyboard in Resources */,
-				C5FD16E51F05740600E0F08E /* ProfileCell.xib in Resources */,
-				C5FD16E71F05743200E0F08E /* TextCell.xib in Resources */,
+				C5FD16E51F05740600E0F08E /* ProfileView.xib in Resources */,
 				C5FD16CC1F0573DC00E0F08E /* Assets.xcassets in Resources */,
 				C5FD16CA1F0573DC00E0F08E /* Main.storyboard in Resources */,
 				C5FD16EB1F05746F00E0F08E /* InputContainerView.xib in Resources */,
@@ -245,11 +238,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5FD16F31F0577B400E0F08E /* TextCell.swift in Sources */,
-				C5FD16EF1F05770D00E0F08E /* ProfileCell.swift in Sources */,
+				C5FD16EF1F05770D00E0F08E /* ProfileView.swift in Sources */,
 				C5FD16F11F05776100E0F08E /* InputContainerView.swift in Sources */,
 				C5FD16C71F0573DC00E0F08E /* ViewController.swift in Sources */,
-				C5FD16F51F0577CB00E0F08E /* ImageTextCell.swift in Sources */,
+				C5CCB7341F0AC5840036DA9A /* RadioHeaderView.swift in Sources */,
 				C5FD16C51F0573DC00E0F08E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

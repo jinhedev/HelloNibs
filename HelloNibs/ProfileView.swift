@@ -9,9 +9,7 @@
 import UIKit
 
 
-class ProfileCell: UITableViewCell {
-    
-    static let id = "ProfileCell"
+class ProfileView: UIView {
     
     @IBOutlet var view: UIView!
     @IBOutlet weak var wrapperView: UIView!
@@ -22,13 +20,11 @@ class ProfileCell: UITableViewCell {
     @IBOutlet weak var bioTextView: UITextView!
     
     private func setupViews() {
-        // cell
-        self.selectionStyle = UITableViewCellSelectionStyle.none
         // view
         self.addSubview(view)
         view.frame = self.bounds
         // wrapperView
-        wrapperView.backgroundColor = UIColor.mediumBlueGray()
+        wrapperView.backgroundColor = UIColor.mediumBlueGray
         // warningLabel
         warningLabel.backgroundColor = UIColor.clear
         warningLabel.textColor = UIColor.red
@@ -45,14 +41,14 @@ class ProfileCell: UITableViewCell {
         // bioTextView
         bioTextView.backgroundColor = UIColor.clear
         bioTextView.isEditable = false
-        bioTextView.textColor = UIColor.candyWhite()
+        bioTextView.textColor = UIColor.candyWhite
         bioTextView.textContainerInset = UIEdgeInsets.zero
         bioTextView.textContainer.lineFragmentPadding = 0
     }
     
     // MARK: - Lifecycle
     
-    private let nibName = "ProfileCell"
+    private let nibName = "ProfileView"
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
